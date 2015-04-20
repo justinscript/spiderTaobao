@@ -10,7 +10,6 @@
 * 6：新发现的连接在linkbase里面进行dedup，并push到linkbase的新URL模块里面
 * 7：调度模块选取url进入抓取模块的待抓取队列，goto 4
 * 8：end
-* 
 
 目前实现功能
 -------------
@@ -22,10 +21,11 @@
 INSTALL
 ========
 确认安装Python2.7及依赖库: 
-        MySQLdb: http://sourceforge.net/projects/mysql-python/
-        python客户端 redis: git clone https://github.com/andymccurdy/redis-py.git 
-        远程服务端 redis: wget http://redis.googlecode.com/files/redis-1.2.6.tar.gz
-        lxml: wget --no-check-certificate http://pypi.python.org/packages/source/l/lxml/lxml-3.0.1.tar.gz
+        
+* MySQLdb: http://sourceforge.net/projects/mysql-python/
+* python客户端 redis: git clone https://github.com/andymccurdy/redis-py.git 
+* 远程服务端 redis: wget http://redis.googlecode.com/files/redis-1.2.6.tar.gz
+* lxml: wget --no-check-certificate http://pypi.python.org/packages/source/l/lxml/lxml-3.0.1.tar.gz
 
 settings.py
 -------------
